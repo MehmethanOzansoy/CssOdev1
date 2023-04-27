@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ürünler Sayfası</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+        color: darkorchid;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+      }
+      li {
+        margin: 20px;
+        box-shadow: 0px 0px 10px #ccc;
+        width: 300px;
+        text-align: center;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+      }
+      h2 {
+        margin-top: 20px;
+      }
+      p {
+        font-weight: bold;
+        font-size: 24px;
+        color: #c00;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        float:initial
+      }
+
+      nav {
+        background-color: #333;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        padding: 0 50px;
+      }
+      nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav li {
+        margin: 0 20px;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: color 0.2s ease-in-out;
+      }
+      nav a:hover {
+        color: #c00;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+        <h1>Müzik Dükkanım</h1>
+    </header>
+    <nav>
+        <div>
+          <a href="#">Logo</a>
+        </div>
+        <ul>
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="product.html">Ürünlerimiz</a></li>
+          <li><a href="about.html">Hakkımızda</a></li>
+        </ul>
+      </nav>
+    <ul>
+      <li>
+        <h2>Ürün 1</h2>
+        <img src="img/640px-GuitareClassique5.png" alt="Ürün 1 Resmi">
+        <p>Fiyat: 100000 TL</p>
+      </li>
+      <li>
+        <h2>Ürün 2</h2>
+        <img src="img/strga-str-04p-44-keman-parlak-tasarim-yae14b.jpg" alt="Ürün 2 Resmi">
+        <p>Fiyat: 20500 TL</p>
+      </li>
+      <li>
+        <h2>Ürün 3</h2>
+        <img src="img/XND55BKSET-1300x1300.jpg" alt="Ürün 3 Resmi">
+        <p>Fiyat: 15000 TL</p>
+      </li>
+    </ul>
+  </body>
+</html>
